@@ -3,8 +3,6 @@
 
 This is a simple **starter example** for how to use [Koota](https://github.com/pmndrs/koota) with react three fiber.
 
----------------------
-
 
 **Koota** is a brand new ecs library by **pmndrs**. Designed for highly dynamic realtime apps (i.e. games).
 While the library is mostly finished, expect some small changes to happen.
@@ -20,7 +18,6 @@ Look at the [ecs/index.ts](src%2Fjs%2Fecs%2Findex.ts) to see how we create a wor
 Inside [ecs/traits.ts](src%2Fjs%2Fecs%2Ftraits.ts) file you'll see some example traits and
 [ecs/systems.ts](src%2Fjs%2Fecs%2Fsystems.ts) has some example systems.<br/>
 
----------------------
 
 ## Check out the [Koota repo](https://github.com/pmndrs/koota) for more docs. ###
 

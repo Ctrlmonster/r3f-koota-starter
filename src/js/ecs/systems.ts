@@ -11,7 +11,7 @@ import {IsSphere, MeshRef, Position} from "./traits";
 // =====================================================================================================================
 
 
-// this system will sync back the position values in our traits back to three.js meshes
+// this system will copy back the position values of our traits to three.js meshes
 
 export const SyncPositionToThree = ({world}: { world: World }) => {
   world.query(Position, MeshRef).updateEach(([pos, {ref: mesh}]) => {

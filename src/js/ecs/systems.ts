@@ -1,4 +1,3 @@
-// an example system - this will just animate all balls in the scene
 import {createAdded, trait, World} from "koota";
 import {mapLinear} from "three/src/math/MathUtils";
 import {MeshStandardMaterial} from "three";

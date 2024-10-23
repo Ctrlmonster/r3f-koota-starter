@@ -14,9 +14,9 @@ and connecting the simulation back to r3f/three.
 
 
 ## Getting Started
-Look at the [ecs/index.ts](src%2Fjs%2Fecs%2Findex.ts) to see how we create a world and a schedule.
-Inside [ecs/traits.ts](src%2Fjs%2Fecs%2Ftraits.ts) file you'll see some example traits and
-[ecs/systems.ts](src%2Fjs%2Fecs%2Fsystems.ts) has some example systems.<br/><br/><br/>
+Take a look at [ecs/index.ts](src%2Fjs%2Fecs%2Findex.ts) to see how we create a world and a schedule.
+Inside [ecs/traits.ts](src%2Fjs%2Fecs%2Ftraits.ts) you'll see some example traits and
+[ecs/systems.ts](src%2Fjs%2Fecs%2Fsystems.ts) will demonstrate some example systems.<br/><br/><br/>
 
 
 ## Check out the [Koota repo](https://github.com/pmndrs/koota) for more docs. ###

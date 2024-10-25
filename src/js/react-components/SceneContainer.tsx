@@ -34,7 +34,7 @@ function Background() {
         infiniteGrid
         fadeDistance={500}
         fadeStrength={5}
-        cellSize={0.6} sectionSize={3.3}
+        cellSize={0.6} sectionSize={3}
         sectionColor={'#3d4367'}
         cellColor={'rgb(15,28,145)'}
       />

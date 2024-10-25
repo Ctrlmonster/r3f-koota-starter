@@ -13,7 +13,7 @@
     "@react-three/drei": "^9.114.6",
     "@react-three/fiber": "^8.17.10",
     "directed": "github:pmndrs/directed#v0.0.1-alpha.5",
-    "koota": "^0.0.5",
+    "koota": "^0.1.1",
     "leva": "^0.9.31",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",

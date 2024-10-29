@@ -1,7 +1,7 @@
 # R3F + Koota Starter
 
 
-[Live Example](https://codesandbox.io/p/github/Ctrlmonster/r3f-koota-starter/main)<br/>
+👉 Check out the [Live Example](https://codesandbox.io/p/github/Ctrlmonster/r3f-koota-starter/main)<br/>
 
 This is a simple **starter example** for how to use [Koota](https://github.com/pmndrs/koota) with react three fiber.
 

@@ -1,13 +1,13 @@
 import {Canvas} from "@react-three/fiber";
-import {useQuery} from "koota/react";
+import {useActions, useQuery} from "koota/react";
 import {SceneContainer} from "./SceneContainer";
-import {useExampleActions} from "../ecs";
+import {exampleActions} from "../ecs";
 import {IsSphere, Position} from "../ecs/traits";
 
 
 export default function App() {
   const entities = useQuery(IsSphere, Position);
-  const {spawnSphere, removeSphere} = useExampleActions();
+  const {spawnSphere, removeSphere} = useActions(exampleActions);
 
 
   return (

@@ -1,6 +1,5 @@
 import {Schedule} from "directed";
-import {createWorld, World} from "koota";
-import {createActions} from "koota/react";
+import {createWorld, World, createActions} from "koota";
 import {AnimateColors, AnimateSpheres, SyncPositionToThree} from "./systems";
 import {IsSphere, Position} from "./traits";
 
@@ -29,7 +28,7 @@ schedule.build();
 // Creating action stores is optional – we can execute the code directly –
 // but it can help us with organization.
 
-export const useExampleActions = createActions((world: World) => ({
+export const exampleActions = createActions((world: World) => ({
 
   spawnSphere: () => {
     world.spawn(IsSphere, Position({
